@@ -20,16 +20,24 @@ def lee_entrenos(ruta_csv):
             distancia = float(distancia)
             frecuencia = int(frecuencia)
             if compartido == "S":
-                True
+                compartido = True
             else: 
-                False
+                compartido = False
             
             tupla=  Entreno(tipo, fechahora, ubicacion,duracion, calorias, distancia, frecuencia, compartido)
             lista_entrenos.append(tupla)
 
     return lista_entrenos
 
+
 def tipo_entreno(lista_entrenos):
+    tipos = []
+    for entrenos in lista_entrenos:
+        tipos.append(entrenos['tipo'])
+    return tipos
+        
+    
+    
     
     
 
