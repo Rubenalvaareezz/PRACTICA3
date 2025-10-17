@@ -57,7 +57,7 @@ def mas_km(lista_entrenos):
             lista_entrenamiento_mas_km = entreno
         else:
             lista_entrenamiento_mas_km = lista_entrenamiento_mas_km
-    return print(f"El entrenamiento de mayor duracion es: {lista_entrenamiento_mas_km}")
+    return print(f"El entrenamiento de mayor distancia es: {lista_entrenamiento_mas_km}")
     
     
     
